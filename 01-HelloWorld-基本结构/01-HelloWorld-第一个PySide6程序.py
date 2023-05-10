@@ -21,7 +21,6 @@ class MyWidget(QtWidgets.QWidget):
         self.text = QtWidgets.QLabel("Hello World", alignment=QtCore.Qt.AlignCenter)
 
 
-
         # 创建一个「垂直盒子」布局管理器
         self.layout = QtWidgets.QVBoxLayout(self)
 
