@@ -20,6 +20,8 @@ class MyWidget(QtWidgets.QWidget):
         # 创建一个标签控件，内容为Hello World,对齐方式为居中
         self.text = QtWidgets.QLabel("Hello World", alignment=QtCore.Qt.AlignCenter)
 
+
+
         # 创建一个「垂直盒子」布局管理器
         self.layout = QtWidgets.QVBoxLayout(self)
 
